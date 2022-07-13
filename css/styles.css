@@ -95,10 +95,12 @@ h1{
 {
   font-size: 50px;
   line-height: 100px;
+  text-align: center;
 }
 .servicios{
   width: 65vw;
   margin: auto;
+  padding-top: 100px;
 }
 .contenedor-tarjetas{
   margin-top: 50px;
@@ -106,8 +108,8 @@ h1{
 
 .video-nosotros{
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 100px;
+  margin-top: 70px;
+
 }
 
 .portada{
@@ -118,11 +120,8 @@ h1{
     margin-right: auto;
     font-size: 30px;
     text-align: center;
-    
-}
-.portada{
     margin:auto;
-    background-image: url(/images/Portada.jpg);
+    background-image:url(../images/portada.jpg);
     -o-object-fit: fill;
     object-fit:fill;
     -o-object-position: 50% 50%;
@@ -132,8 +131,9 @@ h1{
     background-size: 150vh;
     background-repeat: no-repeat;
   background-attachment: fixed;
-
+  z-index: 999;
 }
+
 
 
 .wf-section img{
@@ -1193,6 +1193,7 @@ margin: auto;
 }
 
 
+
 .caption{
   text-align: justify;
   overflow:auto;
@@ -1473,7 +1474,7 @@ pre {
 }
 
 .contenedor-slider{
-  margin-top: 100px;
+
   height: 100vh;
 }
 .team a{
@@ -1528,3 +1529,120 @@ pre {
   text-align: center;
   margin-bottom: 35px;
 }
+
+.video{
+  width: 640px;
+  height:360px;
+  
+}
+
+
+
+
+@media screen and (max-width:991px){
+ 
+ 
+  .caption{
+    width: 80%;
+  }
+
+  
+.slideshow .pagination {
+  bottom: -10px;
+}
+
+
+}
+
+@media screen and (max-width:850px){
+  .slideshow .pagination {
+    bottom: -20px;
+  }
+
+}
+@media screen and (max-width:767px){
+  .texto-portada{
+    font-size: 40px;
+   line-height: 75px;
+    top:30%;  
+}
+  .nosotros{
+    margin: auto;
+    width: 90vw;
+    
+}
+
+  .video{
+    width: 480px;
+    height:320px;
+    
+  }
+
+  
+  .caption{
+    width: 90%;
+  }
+  .text{
+    text-align: left;
+  }
+ 
+  .slideshow .pagination {
+    bottom: -20px;
+  }
+  
+  .menu ul {
+   
+ 
+    align-items: left;
+
+    padding-right: 2vw;
+  
+  }
+  .menu li {
+  
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+   
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+  
+
+}
+
+
+
+@media screen and (max-width:479px){
+  .texto-portada{
+    font-size: 30px;
+   line-height: 60px;
+    top:30%;  
+}
+  .video{
+    width: 320px;
+    height:240px;
+    
+  }
+ 
+  .caption{
+    width: 100%;
+  }
+  .slideshow .slide .title {
+
+    width: 90vw;
+    
+  }
+ 
+  .text{
+    text-align: left;
+  }
+}
+
+/*--------------responsive------------
+
+
+
+
+*/
