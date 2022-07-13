@@ -37,7 +37,7 @@ h1{
     border-bottom: 4px solid #00bce4;
  
 }
-.texto-portada h1{
+.texto-h1{
   border-bottom: none;
 }
 .texto-portada{
@@ -121,7 +121,7 @@ h1{
     font-size: 30px;
     text-align: center;
     margin:auto;
-    background-image:url(../images/portada.jpg);
+    background-image:url(../images/Portada.jpg);
     -o-object-fit: fill;
     object-fit:fill;
     -o-object-position: 50% 50%;
