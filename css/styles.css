@@ -1768,7 +1768,7 @@ aside ul li a {
 
 
 
-@media screen and (max-width:479px){
+@media screen and (max-width:480px){
   .texto-portada span{
     font-size: 50px;
    line-height: 60px;

@@ -75,7 +75,7 @@ body {
 }
 
 .scroll-text{
-  max-height: 80%;
+
   overflow:auto;
 }
 
@@ -361,4 +361,57 @@ body {
   .modal-content {
     width: 100%;
   }
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+
+
+  .clash-card{
+
+    width: 280px;
+ 
+  }
+
+  .slide-container{
+    width: 380px;
+  }
+
+  .clash-card__image{
+    height: 400px;
+  }
+
+.clash-card-info{
+  height: 525px;
+  width: 280px;
+}
+
+.clash-card__description{
+  height: 400px;
+}
+
+.kiwi0{
+  width: 100px;
+  height: 100px;
+}
+.kiwi{
+
+  fill: #94d31b; 
+}
+
+
+
+}
+
+
+@media screen and (max-width:320px){
+
+  .slide-container{
+    width: 320px;
+  }
+
+
 }
