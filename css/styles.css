@@ -1715,11 +1715,7 @@ aside ul li a {
 .texto-portada{
   top:35%; 
 }
-  .nosotros{
-    margin: auto;
-    width: 90vw;
-    
-}
+
 
   .video{
     width: 480px;
@@ -1790,10 +1786,14 @@ aside ul li a {
     width: 90vw;
     
   }
- 
+  .slideshow .slide .caption {
+    padding: 0 10px;
+  }
   .text{
     text-align: left;
   }
-  
+  .title{
+    padding:0 10px;
+  }
 }
 

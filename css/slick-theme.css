@@ -306,13 +306,13 @@
     .slick-prev
     {
       
-        left: 55px;
+        left: 30px;
       
     }
     .slick-next
     {
         
-        right: 55px;
+        right: 30px;
     }
     .slide-container{
         width: 400px;
@@ -329,13 +329,13 @@
     .slick-prev
     {
       
-        left: -10px;
+        left: -15px;
       
     }
     .slick-next
     {
         
-        right: -10px;
+        right: -15px;
     }
    
   
