@@ -72,6 +72,7 @@ body {
   margin: auto;
   text-align: justify;
   padding-right:8px;
+  height:80%;
 }
 
 .scroll-text{
@@ -181,7 +182,7 @@ body {
 }
 
 .clash-card-info{
-  height: 633px;
+  height: 625px;
   width: 350px;
   display: inline-block;
   margin: auto;
@@ -390,18 +391,8 @@ body {
 }
 
 .clash-card__description{
-  height: 400px;
+  max-height: 400px;
 }
-
-.kiwi0{
-  width: 100px;
-  height: 100px;
-}
-.kiwi{
-
-  fill: #94d31b; 
-}
-
 
 
 }

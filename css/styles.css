@@ -1297,20 +1297,20 @@ bottom: 30px;
   z-index: 3;
 }
 .slideshow .arrows .prev {
-  left: 30px;
+  left: 0px;
 }
 .slideshow .arrows .prev:hover .svg {
-  left: -10px;
+  left: -5px;
 }
 .slideshow .arrows .next {
-  right: 30px;
+  right: 0px;
 }
 .slideshow .arrows .next:hover .svg {
-  left: 10px;
+  left: 5px;
 }
 .slideshow .arrows .svg {
   position: relative;
-  left: 0;
+  left:0;
   width: 14px;
   height: 26px;
   fill: black;
@@ -1787,7 +1787,7 @@ aside ul li a {
     
   }
   .slideshow .slide .caption {
-    padding: 0 10px;
+    padding: 0 38px;
   }
   .text{
     text-align: left;
