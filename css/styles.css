@@ -984,6 +984,10 @@ margin: auto;
   background-size: 100%;
   background-color: #f2bc1c; 
   background-position-x: c;
+  -webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
   z-index: 1000;
 }
 .ubicacion:hover, .icon-email:hover, .icon-whatsapp:hover{
@@ -1064,7 +1068,11 @@ margin: auto;
   mask-size: contain;
   background-size: 100%;
   background-color: #f2bc1c; 
-  background-position-x: c;
+  background-position-x: center;
+  -webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
   z-index: 1000;
 }
 .icon-email{
@@ -1079,7 +1087,11 @@ margin: auto;
   mask-size: contain;
   background-size: 100%;
   background-color: #f2bc1c; 
-  background-position-x: c;
+  background-position-x: center;
+  -webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+  -o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
   z-index: 1000;
 }
 
