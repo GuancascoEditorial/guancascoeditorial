@@ -538,6 +538,12 @@ NAV
     padding: 50px 30px 70px 30px;
     bottom: 0;
   }
+  .textbox{
+    height: 50%;
+  }
+  .material-card .mc-description{
+    height: 50%;
+  }
 }
 .material-card.mc-active .mc-footer {
   overflow: visible;
