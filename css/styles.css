@@ -539,10 +539,10 @@ NAV
     bottom: 0;
   }
   .textbox{
-    height: 50%;
+    height: 65%;
   }
   .material-card .mc-description{
-    height: 50%;
+    height: 65%;
   }
 }
 .material-card.mc-active .mc-footer {
