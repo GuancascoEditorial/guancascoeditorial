@@ -1,16 +1,14 @@
 
 @font-face {
-  font-family: 'nexa_boldregular';
-  src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'),
-       url('../fonts/nexa_bold-webfont.woff') format('woff');
+  font-family: 'IBMPlexSans-Bold';
+  src: url('../fonts/IBMPlexSans-Bold.ttf') format('ttf'),
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
-  font-family: 'nexabook';
-  src: url('../fonts/nexabook-webfont.woff2') format('woff2'),
-       url('../fonts/nexabook-webfont.woff') format('woff');
+  font-family: 'IBMPlexSans-Regular';
+  src: url('../fonts/IBMPlexSans-Regular.ttf') format('ttf'),
   font-weight: normal;
   font-style: normal;
 
@@ -19,10 +17,10 @@
  a{
   text-decoration-style: none;
   color:black;
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
 }
 .page-1 {
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
     background-color: rgb(241, 241, 241);
    
     font-weight: 700;
@@ -31,7 +29,7 @@
  
 }
 h1{
-  font-family: 'nexa_boldregular';
+  font-family: 'IBMPlexSans-Bold';
 
 
     border-bottom: 4px solid #00bce4;
@@ -40,7 +38,7 @@ h1{
 
 .texto-portada span{
   font-size: 100px;
-  font-family: 'nexa_boldregular';
+  font-family: 'IBMPlexSans-Bold';
  
  
   border-bottom: none;
@@ -614,7 +612,7 @@ body {
  
 
   color: #37474F;
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
   
 }
 
@@ -1128,7 +1126,7 @@ margin: auto;
 
   letter-spacing: 0.05em;
 
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
 }
 
 
@@ -1246,7 +1244,7 @@ margin: auto;
 
 .title{
   padding: 0 50px;
-  font-family: 'nexa_boldregular';
+  font-family: 'IBMPlexSans-Bold';
   font-size: 30px;
   margin: auto;
  margin-top: 5vh;
