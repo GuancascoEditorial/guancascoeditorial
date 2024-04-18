@@ -57,6 +57,8 @@ h1{
 }
 
 .nosotros{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
     margin: auto;
     width: 70vw;
     text-align: justify;
