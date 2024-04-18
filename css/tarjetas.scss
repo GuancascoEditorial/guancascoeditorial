@@ -5,17 +5,15 @@
 }
 
 @font-face {
-  font-family: 'nexa_boldregular';
-  src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'),
-       url('../fonts/nexa_bold-webfont.woff') format('woff');
+  font-family: 'IBMPlexSans-Bold';
+  src: url('../fonts/IBMPlexSans-Bold.ttf') format('ttf'),
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
-  font-family: 'nexabook';
-  src: url('../fonts/nexabook-webfont.woff2') format('woff2'),
-       url('../fonts/nexabook-webfont.woff') format('woff');
+  font-family: 'IBMPlexSans-Regular';
+  src: url('../fonts/IBMPlexSans-Regular.ttf') format('ttf'),
   font-weight: normal;
   font-style: normal;
 
@@ -27,7 +25,7 @@ body {
  
  background-color: rgb(241, 241, 241);
   background-size: cover;
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
   color: #505050;
 
 }
@@ -86,7 +84,7 @@ body {
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 3px;
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
   margin-top: 5px;
   color: #00bce4;
 }
@@ -96,12 +94,12 @@ body {
   font-size: 26px;
   color: black;
   font-weight: 900;
-  font-family: 'nexa_boldregular';
+  font-family: 'IBMPlexSans-bold';
 
 }
 
 .clash-card__unit-description {
-  font-family: 'nexabook';
+  font-family: 'IBMPlexSans-Regular';
   margin-bottom: 10px;
 }
 
@@ -113,7 +111,7 @@ body {
   margin: auto;
   margin-bottom: 15px;
   margin-top: 25px;
-  font-family: 'nexa_boldregular';
+  font-family: 'IBMPlexSans-bold';
   max-width: 80%;
   
 }
