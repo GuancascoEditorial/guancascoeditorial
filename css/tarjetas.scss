@@ -26,6 +26,7 @@ body {
  background-color: rgb(241, 241, 241);
   background-size: cover;
    font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
   color: #505050;
 
 }
@@ -84,7 +85,8 @@ body {
   font-size: 12px;
   font-weight: ;
   margin-bottom: 3px;
-  font-family: 'IBMPlexSans-Regular';
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
   margin-top: 5px;
   color: #00bce4;
 }
@@ -94,12 +96,14 @@ body {
   font-size: 26px;
   color: black;
   font-weight: 900;
-  font-family: 'IBMPlexSans-bold';
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: bold;
 
 }
 
 .clash-card__unit-description {
-  font-family: 'IBMPlexSans-Regular';
+   font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
   margin-bottom: 10px;
 }
 
@@ -111,7 +115,8 @@ body {
   margin: auto;
   margin-bottom: 15px;
   margin-top: 25px;
-  font-family: 'IBMPlexSans-bold';
+   font-family: "IBM Plex Sans", sans-serif;
+  font-style: bold;
   max-width: 80%;
   
 }
