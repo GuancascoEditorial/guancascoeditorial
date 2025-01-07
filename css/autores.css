@@ -154,7 +154,7 @@
   left: 30px;
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 700;
   -webkit-transition: all 1.4s;
   -moz-transition: all 1.4s;
@@ -169,7 +169,7 @@
   width: 52px;
   height: 52px;
   margin-left: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
   font-size: 15px;
   color: #fff;
   line-height: 52px;
