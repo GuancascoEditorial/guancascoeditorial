@@ -154,7 +154,7 @@
   left: 30px;
   padding: 0;
   margin: 0;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   -webkit-transition: all 1.4s;
   -moz-transition: all 1.4s;
@@ -1241,7 +1241,7 @@ body {
   color: #37474f;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 12px;
 }
 h1,
 h2,
