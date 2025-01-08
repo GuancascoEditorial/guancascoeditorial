@@ -1,14 +1,14 @@
 
 @font-face {
-  font-family: "Raleway", sans-serif;
-  src: url('../fonts/Raleway-Bold.ttf') format('ttf');
+  font-family: "IBM Plex Sans", sans-serif;
+  src: url('../fonts/IBMPlexSans-Bold.ttf') format('ttf');
   font-weight: normal;
   font-style: bold;
 
 }
 @font-face {
-  font-family: "Raleway", sans-serif;
-  src: url('../fonts/Raleway-Regular.ttf') format('ttf');
+  font-family: "IBM Plex Sans", sans-serif;
+  src: url('../fonts/IBMPlexSans-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 
@@ -17,11 +17,11 @@
  a{
   text-decoration-style: none;
   color:black;
- font-family: "Raleway", sans-serif;
+ font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
 }
 .page-1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
     background-color: rgb(241, 241, 241);
 
     font-size: 20px;
@@ -30,7 +30,7 @@
  
 }
 h1{
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 
 
     border-bottom: 4px solid #00bce4;
@@ -39,7 +39,7 @@ h1{
 
 .texto-portada span{
   font-size: 100px;
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: bold;
    font-weight: 900;
 
@@ -65,7 +65,7 @@ h1{
     
 }
 .nosotros p{
-    font-family: "Raleway", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     line-height: 30px;
     padding-top: 50px;
