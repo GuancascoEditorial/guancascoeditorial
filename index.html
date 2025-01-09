@@ -3,7 +3,6 @@
 	    
 <!-- Agredados Bootstrap 2025 head -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Installing Bootstrap</title>
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Final Agredados Bootstrap 2025 head -->
 
@@ -2388,7 +2387,7 @@ Tamaño estamento<br>
       img17.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
-    });
+    })
     img.addEventListener('mouseup', function (event) {
       const diffX = Math.abs(event.pageX - startX);
       const diffY = Math.abs(event.pageY - startY);
@@ -2560,7 +2559,7 @@ Tamaño estamento<br>
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
       }
-    });
+    })
 	    
       // Get the <span> element that closes the modal
       var span = document.getElementsByClassName("close")[0];
