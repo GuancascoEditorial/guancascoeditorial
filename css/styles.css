@@ -1703,10 +1703,13 @@ aside ul li a {
 
 
 
-
-
-
-
+/*--- Separador de guiones ---*/
+p.auto {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/*--- Separador de guiones ---*/
 
 
 
