@@ -1567,8 +1567,8 @@ pre {
 }
 
 .video {
-  width: auto;
-  height: auto;
+  width: 1280px;
+  height: 720px;
 }
 @media screen and (max-width: 750px) {
   .video {
