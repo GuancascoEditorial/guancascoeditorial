@@ -626,10 +626,12 @@ body {
   font-style: normal;
 }
 
-
+/* SEPARADOR DE GUIONES 2025 */
 .textbox{
 padding-right:8px;
-
+text-align: justify;
+hyphens: auto;
+  
 }
 
 /* Works on Firefox */
