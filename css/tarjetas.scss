@@ -361,24 +361,18 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-/*
-.imgZoom {
-    max-width: 350px;
-    height: auto;
-}*/
 
-#myImg:hover {opacity: 0.7;}
+#myImg:    hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    /*position: fixed;  Stay in place */
     z-index: 1000; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 100vw%; /* Full width */
+    height: 100vh; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
@@ -388,7 +382,6 @@ body {
 .modal-content {
     margin: auto;
     display: block;
-    /*width: 80%;*/
     max-width: 700px;
 }
 
@@ -396,7 +389,6 @@ body {
 #caption {
     margin: auto;
     display: block;
-    /*width: 80%;*/
     max-width: 700px;
     text-align: center;
     color: #ccc;
@@ -405,7 +397,7 @@ body {
 }
 
 /* Add Animation */
-.modal-content, #caption {    
+.modal-content, #caption-img {    
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -426,7 +418,7 @@ body {
 .close {
     position: absolute;
     top: 15px;
-    right: 35px;
+    left: 35px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
