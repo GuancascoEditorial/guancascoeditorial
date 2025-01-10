@@ -2320,27 +2320,27 @@ Tamaño estamento<br>
     let startX;
     let startY;
     
-    img.addEventListener('click', function (event) {
+    img.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
-    img2.addEventListener('click', function (event) {
+    img2.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
-    img3.addEventListener('click', function (event) {
+    img3.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
-    img4.addEventListener('click', function (event) {
+    img4.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
-    img5.addEventListener('click', function (event) {
+    img5.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
-    img6.addEventListener('click', function (event) {
+    img6.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
     });
@@ -2387,7 +2387,7 @@ Tamaño estamento<br>
       img17.addEventListener('mousedown', function (event) {
       startX = event.pageX;
       startY = event.pageY;
-    })
+    });
     img.addEventListener('mouseup', function (event) {
       const diffX = Math.abs(event.pageX - startX);
       const diffY = Math.abs(event.pageY - startY);
@@ -2559,7 +2559,7 @@ Tamaño estamento<br>
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
       }
-    })
+    });
 	    
       // Get the <span> element that closes the modal
       var span = document.getElementsByClassName("close")[0];
