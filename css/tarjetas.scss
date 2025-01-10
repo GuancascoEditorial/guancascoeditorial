@@ -372,7 +372,7 @@ body {
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    /*position: fixed;  Stay in place */
     z-index: 1000; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
@@ -388,7 +388,7 @@ body {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    /*width: 80%;*/
     max-width: 700px;
 }
 
@@ -396,7 +396,7 @@ body {
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
+    /*width: 80%;*/
     max-width: 700px;
     text-align: center;
     color: #ccc;
