@@ -1566,10 +1566,15 @@ pre {
   margin-bottom: 35px;
 }
 
-.video{
-  width: 640px;
-  height:360px;
-  
+.video {
+  width: 1160px;
+  height: auto;
+}
+@media screen and (max-width: 750px) {
+  .video {
+    width: auto;
+    height: auto;
+  }
 }
 
 .barra-horizontal{
