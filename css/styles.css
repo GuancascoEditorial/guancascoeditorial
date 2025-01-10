@@ -1837,7 +1837,7 @@ aside ul li a {
 }
 
 .imgZoom {
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
 }
 
@@ -1920,3 +1920,5 @@ aside ul li a {
         width: 100%;
     }
 }
+
+/*-------------- myImg End ------------*/
